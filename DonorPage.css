@@ -1,0 +1,60 @@
+.donation-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+ 
+.donation-card {
+    width: 350px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color:ghostwhite;
+}
+ 
+.donation-card h2 {
+    align-content: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+    color:chocolate;
+}
+ 
+.donation-card p {
+    margin: 5px 0;
+    font-size: 18px;
+}
+ 
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+ 
+.approve-button,
+.reject-button {
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+    margin: 3px;
+    width: max-content;
+}
+ 
+.approve-button {
+    background-color: #4caf50;
+    color: white;
+}
+ 
+.reject-button {
+    background-color: #f44336;
+    color: white;
+}
+ 
+.approve-button:hover,
+.reject-button:hover {
+    opacity: 0.8;
+}
+

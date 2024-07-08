@@ -1,0 +1,32 @@
+.picture_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+ 
+.picture {
+  height: 380px;
+  width: 60%;
+}
+.box{
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.box1 {
+  padding: 10px;
+  background-color: whitesmoke;
+  height: 170px;
+  width: 30%;
+  border-radius: 25px;
+}
+ 
+.box2 {
+  padding: 10px;
+  background-color: whitesmoke;
+  height: 170px;
+  width: 30%;
+  border-radius: 25px;
+}
+ 
